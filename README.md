@@ -25,7 +25,7 @@ Office Location:  SMBB 3750
 
 [Pico SDK](https://www.raspberrypi.com/documentation/pico-sdk/)
 
-[Project template](https://github.com/uofu-emb/rtos.template)
+[Project template](https://github.com/uofu-embed/rtos.template)
 
 # Course Schedule
 | Day      | Lab                                      | Discussion                                                    |

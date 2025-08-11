@@ -35,7 +35,7 @@ Follow the instructions in Appendix A of the [Getting Started](https://datasheet
 
 # Lab
 ## Instantiate the project
-1. Create a new repository from this template https://github.com/uofu-emb/rtos.template
+1. Create a new repository from this template https://github.com/uofu-embed/rtos.template
 1. Remember to commit your work as you go.
 
 ### Install Unity framework.
@@ -302,4 +302,4 @@ https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsCheatShe
 2. Continue refactoring and adding tests until you are satisfied with the test coverage.
 
 # Examples
-A reference implementation is located at https://github.com/uofu-emb/rtos.02
+A reference implementation is located at https://github.com/uofu-embed/rtos.02

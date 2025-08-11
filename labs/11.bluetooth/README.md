@@ -67,7 +67,7 @@ Our device uses a generic name when advertising. We need to distinguish ourselve
 
 ### Background
 
-Fork the bluetooth template repo https://github.com/uofu-emb/rtos.bt.
+Fork the bluetooth template repo https://github.com/uofu-embed/rtos.bt.
 This contains the FreeRTOS setup and a basic GATT server implementation.
 The template starts with simplified code from the pico-example and btstack repos.
 
@@ -151,4 +151,4 @@ You can use the raw id, or the corresponding constants are defined in bluetooth_
 
 # Reference implementation
 
-Reference implementation is located at https://github.com/uofu-emb/rtos.11
+Reference implementation is located at https://github.com/uofu-embed/rtos.11

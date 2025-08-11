@@ -79,4 +79,4 @@ In the previous example, we were limited to a single worker. In the second examp
 1. Your worker should return the input + five
 
 # Reference implementation
-A complete solution is locate at https://github.com/uofu-emb/rtos.04
+A complete solution is locate at https://github.com/uofu-embed/rtos.04

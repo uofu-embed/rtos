@@ -86,4 +86,4 @@ Write tests for two threads running the following scenarios. Try to predict the 
 Make sure you are setting priorities according to the priority order presented in the documentation.
 
 # Reference implementation
-Reference implementation is located at https://github.com/uofu-emb/rtos.06
+Reference implementation is located at https://github.com/uofu-embed/rtos.06

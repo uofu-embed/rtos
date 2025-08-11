@@ -140,4 +140,4 @@ Measure the latency of an interrupt handler.
 1. ~~Add a busy wait delay to the message handler. (Put the delay before the toggle)~~
 
 # Reference implementation
-A working reference implementation is available here https://github.com/uofu-emb/rtos.05
+A working reference implementation is available here https://github.com/uofu-embed/rtos.05

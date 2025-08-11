@@ -141,4 +141,4 @@ void orphaned_lock(void)
 4. Write a test showing the thread will not deadlock.
 
 # Reference implementation
-A working reference implementation is available here https://github.com/uofu-emb/rtos.03
+A working reference implementation is available here https://github.com/uofu-embed/rtos.03

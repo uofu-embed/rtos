@@ -37,7 +37,7 @@ https://www.dnsstuff.com/what-is-network-topology
 https://aws.amazon.com/what-is/osi-model/
 
 # Lab
-Add the CAN library submodule (note this is a fork with some fixes)  https://github.com/uofu-emb/can2040
+Add the CAN library submodule (note this is a fork with some fixes)  https://github.com/uofu-embed/can2040
 There is a can2040.cmake file which you can include in your CMakelists.txt which exports a library can2040 you will add to your dependency list.
 
 Many microcontrollers include dedicated CAN hardware peripherals, but the Pico does not.
@@ -106,4 +106,4 @@ This activity will observe bus contention from a babbling node. "In a Controller
 1. Document your observations in your repository.
 
 # Reference implementation
-Scaffold implementation of the lab is https://github.com/uofu-emb/rtos.08
+Scaffold implementation of the lab is https://github.com/uofu-embed/rtos.08
