@@ -33,10 +33,13 @@ Build tools use a set of conventions to setup a project. This usually defines a 
 
 ### Tasks
 You should be able to load the example code onto the board following the instructions.
+Clone the template repository.
 
-- Follow the chapter 4 section 1 of the getting started guide. https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
+https://github.com/uofu-embed/rtos.template
 
-You can build the project using the GUI as outlined in the documentation. We will explore the command line in the next lab (see Appendix C).
+- Follow the chapter 4 section 1 of the getting started guide and appendix C. https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
+
+You can build the project using the CMake GUI. We will explore the command line in the next lab (see Appendix C).
 
 # Lab
 # Commit project
