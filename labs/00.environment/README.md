@@ -32,7 +32,7 @@ Follow the [installation guide](../../SETUP.md) in the top directory of this rep
 Build tools use a set of conventions to setup a project. This usually defines a consistent organization for source code, header, and test code. The configuration of the project, library dependencies, along with any custom build tasks, will be located in the build file. The Raspberry Pi Pico uses the CMake tool to configure and run the build process. The build file `CMakeLists.txt` is located at the root of the project. The build file will be committed to your git repository with the rest of your source code. Anyone else working on the project will be able to use the same project configuration by simply checking out the code.
 
 ### Tasks
-Clone the template repository.
+Clone the template repository. https://github.com/uofu-embed/rtos.template
 
 To build the code, you will use CMake to setup the build configuration and then execute the build process.
 There is some brief docs [here on using CMake](../../CMAKE.md).
