@@ -64,7 +64,7 @@ Now that the code is compiling, it needs to be tested. Manually testing the syst
 Remember, "if you can't measure it, you can't change it".
 
 ### Activity
-Several tasks are defined in the .vscode configuration in the class template. The launch.json and task.json files have been modified to use the currently selected CMake target binary rather than the single target allowed by the Pico extension. You can switch the current launch/build target from the Command Palette or the CMake extension side panel with "Set Launch/Debug Target".
+Several tasks are defined in the https://github.com/uofu-embed/rtos.template/blob/main/vscode_config_example/launch.json configuration in the class template. The launch.json and task.json files have been modified to use the currently selected CMake target binary. You can move these into the `.vscode` directory created by your editor or merge with an existing launch file. You can switch the current launch/build target from the Command Palette or the CMake extension side panel with "Set Launch/Debug Target".
 
 1. Read throught the `test.c` example into `test` directory.
 1. Verify that all tests pass. To run the test, you have a two options.
