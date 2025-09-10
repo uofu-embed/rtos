@@ -23,6 +23,11 @@ If you specify the `-f` flag, it should switch the device back into BOOTSELECT m
 You can also use the custom `flash` or `flash_test` target defined in the CMakeLists.txt from the class template.
 ```cmake --build build --target flash```
 
+## OpenOCD
+I recommend using the second pico microcontroller as a JTAG debugger and programmer. Instead of using picotool and communicating with the bootloader over USB, you will directly control it with the programmer. To flash an elf file `mytest.elf` you'll invoke the following. You will need to set the `OPENOCD_PATH` environment variable. This typically is in `/usr/share/openocd/scripts` or `/usr/local/share/openocd/scripts`.
+
+```openocd -s $OPENOCD_PATH -f interface/cmsis-dap.cfg -f target/rp2040.cfg -c 'adapter speed 5000; program "mytest.elf" verify reset exit'```
+
 ## Clean
 You can remove build artifacts by running the `clean` target.
 ```cmake --build build --target clean```
