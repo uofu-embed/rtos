@@ -132,12 +132,11 @@ Measure the latency of an interrupt handler.
 1. Increase the delay using a busy wait loop as before. (Put the delay before the toggle)
 
 ## Activity
-**Skip this activity**
-1. ~~Modify the interrupt handler by adding in a message queue.~~
-1. ~~From the interrupt handler send a message.~~
-1. ~~Create a new thread that reads messages from the queue and toggles the output pin when a message is received.~~
-1. ~~Measure the latency again.~~
-1. ~~Add a busy wait delay to the message handler. (Put the delay before the toggle)~~
+1. Modify the interrupt handler by adding in a message queue.
+1. From the interrupt handler send a message.
+1. Create a new thread that reads messages from the queue and toggles the output pin when a message is received.
+1. Measure the latency again.
+1. Add a busy wait delay to the message handler. (Put the delay before the toggle)
 
-# Reference implementation
+# Reference[ implementation
 A working reference implementation is available here https://github.com/uofu-embed/rtos.05
