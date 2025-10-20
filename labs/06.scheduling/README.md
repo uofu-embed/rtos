@@ -44,10 +44,10 @@ When dealing with indeterminate data in tests due to variations in runtime, you 
 https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsReference.md#test_assert_int_within-delta-expected-actual
 
 ### Activity 0
-Induce priority inversion.
+Induce priority inversion. Make sure to check out the Lee & Seshia chapters for examples.
 
-1. create two preemptable threads (and a supervisor to manage them).
-1. create a semaphore shared between the two. Create it with xSemaphoreCreateBinary.
+1. create three preemptable threads (and a supervisor to manage them).
+1. create a semaphore shared between the three. Create it with xSemaphoreCreateBinary.
 1. set one thread to higher priority. set it to delay start.
 1. have the lower priority thread acquire the semphore first.
 1. Predict the behavior of the system.
