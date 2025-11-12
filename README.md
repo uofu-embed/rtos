@@ -53,15 +53,15 @@ Office Location:  SMBB 3750
 | Oct. 27  | Lab 8 CAN Bus                            | Networking                                                    |
 | Oct. 29  | Lab 8 con't                              | real-time communication                                       |
 | Nov. 3   | Lab 9 Formal verification                | Model checking                                                |
-| Nov. 5   | Lab 9 con't                              | Safety, reliability, and risk                                 |
-| Nov. 10  | Lab 11 Bluetooth                         | Radio technologies                                            |
-| Nov. 12  | Lab 11 con't                             |                                                               |
-| Nov. 17  | Lab 10 Power                             | Measuring and estimating power                                |
-| Nov. 19  | Lab 10 con't                             |                                                               |
-| Nov. 24  | Lab 12 SMP                               | Multi-core systems                                            |
+| Nov. 5   | Lab 9 con't                              |                                                               |
+| Nov. 10  | Lab 8 con't                              |                                                               |
+| Nov. 12  | Lab 11 Bluetooth                         | Radio technologies                                            |
+| Nov. 17  | Lab 11 con't                             |                                                               |
+| Nov. 19  | Lab 10 Power                             | Measuring and estimating power                                |
+| Nov. 24  | Lab 12 con't                             | Multi-core systems                                            |
 | Nov. 26  | Thanksgiving Eve                         | Many folks will be travelling. Class time is still available. |
-| Dec. 1   | Lab 12 con't                             |                                                               |
-| Dec. 3   | Lab 12 con't                             |                                                               |
+| Dec. 1   | Lab 12 con't                             | Measuring and estimating power                                |
+| Dec. 3   | Lab 12 con't                             | Safety, reliability, and risk                                 |
 
 Exam period is Wednesday, December 8, 2025 3:30 – 5:30 pm. We will use this time to eat ice cream, discuss what happened during the course, and show off our results.
 
