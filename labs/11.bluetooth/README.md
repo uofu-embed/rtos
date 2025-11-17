@@ -124,7 +124,7 @@ BTStack uses an event loop which executes callbacks in response to activity in d
 
 ### Tasks
 1. In `picow_bt_example_freertos.c`, modify the packet handler to log when the number of connections has changed.
-1. Hint: The different types of events and helpers to extract event data from the packet are located in `bstack_event.h`
+1. Hint: The different types of events and helpers to extract event data from the packet are located in `btstack_event.h`
 
 ## Activity - add a service
 
