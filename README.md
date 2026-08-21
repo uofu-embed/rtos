@@ -1,6 +1,6 @@
 # ECE 5785/6785 Advanced Embedded Systems
 
-**Fall 2025**
+**Fall 2026**
 Monday/Wednesday 11:50AM-01:10PM MEB 2265
 
 Website: https://github.com/uofu-embed/rtos
@@ -30,39 +30,39 @@ Office Location:  SMBB 3750
 # Course Schedule
 | Day      | Lab                                      | Discussion                                                    |
 |----------|------------------------------------------|---------------------------------------------------------------|
-| Aug. 18  |                                          | Course syllabus, assign case study presentations. Git review. |
-| Aug. 20  |                                          | Pull requests                                                 |
-| Aug. 27  | Lab 0 hello world!                       | Real Time OS features, bare metal comparison.                 |
-| Aug. 29  | Lab 0 con't                              |                                                               |
-| Sept. 1  | Labor Day                                | Relax                                                         |
-| Sept. 5  | Lab 1 Makefiles                          | Makefile basics                                               |
-| Sept. 8  | Lab 2 Testing techniques                 | Testing techniques                                            |
-| Sept. 10 | Lab 2 con't                              | refactoring                                                   |
-| Sept. 15 | Lab 3 Tasks, Semaphores, Synchronization | Shared state,                                                 |
-| Sept. 17 | Lab 3 con't                              | race conditions, deadlock                                     |
-| Sept. 22 | Lab 3 con't                              |                                                               |
-| Sept. 24 | Lab 4 Interprocess communication         | Communication patterns                                        |
-| Sept. 29 | Lab 4 con't                              | Queues and backpressure                                       |
-| Oct. 1   | Lab 4 con't                              |                                                               |
-| Oct. 6   | fall break                               |                                                               |
-| Oct. 8   | fall break                               |                                                               |
-| Oct. 13  | Lab 5 Real-time systems                  | Real Time requirements                                        |
-| Oct. 15  | Lab 5 con't                              |                                                               |
-| Oct. 20  | Lab 6 Scheduling                         | Scheduling algorithms                                         |
-| Oct. 22  | Lab 6 con't                              | Priority inversion                                            |
-| Oct. 27  | Lab 8 CAN Bus                            | Networking                                                    |
-| Oct. 29  | Lab 8 con't                              | real-time communication                                       |
-| Nov. 3   | Lab 9 Formal verification                | Model checking                                                |
-| Nov. 5   | Lab 9 con't                              |                                                               |
-| Nov. 10  | Lab 8 con't                              |                                                               |
-| Nov. 12  |  Lab 11 Bluetooth                        | Radio technologies                                            |
-| Nov. 17  |  Lab 11 con't                            | Radio technologies                                            |
-| Nov. 19  |  Lab 11 con't                            |                                                               |
-| Nov. 24  | Lab 10 Power                             | Measuring and estimating power                                |
-| Nov. 26  | Thanksgiving Eve                         | Many folks will be travelling. Class time is still available. |
-| Dec. 1   | Mock interviews                          | Safety, reliability, and risk                                 |
-| Dec. 3   | Mock interviews                          |                                                               |
+| Aug. 24  |                                          | Course syllabus, assign case study presentations. Git review. |
+| Aug. 26  |                                          | Pull requests                                                 |
+| Aug. 31  | Lab 0 hello world!                       | Real Time OS features, bare metal comparison.                 |
+| Spet. 2  | Lab 0 con't                              |                                                               |
+| Sept. 7  | Labor Day                                | Relax                                                         |
+| Sept. 9  | Lab 1 Makefiles                          | Makefile basics                                               |
+| Sept. 14 | Lab 2 Testing techniques                 | Testing techniques                                            |
+| Sept. 16 | Lab 2 con't                              | refactoring                                                   |
+| Sept. 21 | Lab 3 Tasks, Semaphores, Synchronization | Shared state,                                                 |
+| Sept. 23 | Lab 3 con't                              | race conditions, deadlock                                     |
+| Sept. 28 | Lab 3 con't                              |                                                               |
+| Sept. 30 | Lab 4 Interprocess communication         | Communication patterns                                        |
+| Oct. 5   | Lab 4 con't                              | Queues and backpressure                                       |
+| Oct. 6   | Lab 4 con't                              |                                                               |
+| Oct. 12  | fall break                               |                                                               |
+| Oct. 14  | fall break                               |                                                               |
+| Oct. 19  | Lab 5 Real-time systems                  | Real Time requirements                                        |
+| Oct. 21  | Lab 5 con't                              |                                                               |
+| Oct. 26  | Lab 6 Scheduling                         | Scheduling algorithms                                         |
+| Oct. 28  | Lab 6 con't                              | Priority inversion                                            |
+| Nov. 2   | Lab 8 CAN Bus                            | Networking                                                    |
+| Nov. 4   | Lab 8 con't                              | real-time communication                                       |
+| Nov. 9   | Lab 9 Formal verification                | Model checking                                                |
+| Nov. 11  | Lab 9 con't                              |                                                               |
+| Nov. 16  | Lab 8 con't                              |                                                               |
+| Nov. 18  | Lab 11 Bluetooth                         | Radio technologies                                            |
+| Nov. 23  | Lab 11 con't                             | Radio technologies                                            |
+| Nov. 25  | Thanksgiving Eve                         | Many folks will be travelling. Class time is still available. |
+| Nov. 30  | Lab 10 Power                             | Measuring and estimating power                                |
+| Dec. 2   | Lab 10 con't                             |                                                               |
+| Dec. 7   | TBA                                      | Safety, reliability, and risk                                 |
+| Dec. 9   | TBA                                      |                                                               |
 
-Exam period is Wednesday, December 8, 2025 3:30 – 5:30 pm. We will use this time to eat ice cream, discuss what happened during the course, and show off our results.
+Exam period is Tuesday, December 15, 2026 3:30 – 5:30 pm. We will use this time to eat ice cream, discuss what happened during the course, and show off our results.
 
 Note: This syllabus is meant to serve as an outline and guide for our course. Please note that I may modify it with reasonable notice to you. I may also modify the Course Schedule to accommodate the needs of our class. Any changes will be announced in class and posted on Canvas under Announcements.
