@@ -8,9 +8,13 @@ Linux is the most popular open-source version of Unix. Windows users can use the
 
 Linux is packaged in a distribution. (Popular distributions)[https://distrowatch.com/] include (Debian)[https://www.debian.org/], (Mint)[https://linuxmint.com/], (Ubuntu)[https://www.ubuntu.com], (Arch)[http://www.archlinux.org/], and (Fedora)[https://fedoraproject.org/]. If you aren't sure which to install, Ubuntu is a fine choice.
 
+The prebuilt VirtualBox VM contains everything pre-installed, however it is important to understand how your software environment is setup.
+
 ## Installation methods
 ### Virtual machine
 Tools such as (Virtualbox)[https://www.virtualbox.org/] allow you to create a virtual machine, where you can install Linux.
+
+There is a prebuild VM (here)[https://eng.utah.edu/~snelgrov/embedded.ova] which contains a fully setup Debian environment. The username is `embed` and the password is `goutes`. You should change the password with the `passwd` command
 
 To get ssh access, you will need to set up some kind of port forwarding https://www.virtualbox.org/manual/ch06.html#natforward
 
@@ -39,8 +43,14 @@ OSX users can install the toolchain with homebrew.
 ```
 homebrew install cmake arm-none-eabi-gcc picotool openocd
 ```
-If your distribution does not provide a package for picotool, it can be installed directly from https://github.com/raspberrypi/pico-sdk-tools/releases
+## Picotool
+Not every distribution includes a package for the picotool binary. You can download precompiled binaries. You can extract the archive to a location such as /usr/local/share/picotool, then symlink the picotool binary to a location on your path, e.g. `ln -s /usr/local/share/pictool/picotool /usr/local/bin/picotool`
 
+https://github.com/raspberrypi/pico-sdk-tools/releases
+
+You may need to set environment variables for the pico-sdk cmake configuration.
+
+https://github.com/raspberrypi/picotool#building--installing
 # Install VSCode
 We'll be using the VSCode extension integration to setup the SDK. **Do not download the Pico extension**, as it modifies build internals. We will use individual tools.
 
@@ -50,6 +60,7 @@ We'll be using the VSCode extension integration to setup the SDK. **Do not downl
     - "RobotCode" from robotcode.io https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode
     - "C/C++" from Microsoft https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
     - "Makefile Tools" from Microsoft https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
+    - "Embedded Tools" from Microsoft https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-embedded-tools
     - "Python" from Microsoft https://marketplace.visualstudio.com/items?itemName=ms-python.python
     - "Python Debugger" from Microsoft https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy
     - "Serial Monitor" from Microsoft https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-serial-monitor
@@ -69,6 +80,27 @@ https://github.com/raspberrypi/picotool/blob/master/udev/99-picotool.rules
 You may need to add your user to the dialout group to access serial devices.
 
 `sudo usermod -a -G dialout $USER`
+
+# Install Robot Framework
+We'll use the Robot Framework for running our tests.
+
+https://docs.robotframework.org/docs/getting_started/testing#install-robot-framework
+
+Note you will want to install with `pip3 install --user robotframework` to add a user-wide installation.
+
+# Install Renode
+1. Download and install Renode, available at the following link https://renode.io/#downloads
+
+## Additional renode setup
+The Raspberry Pico needs configuration files for Renode to work properly.
+
+* On MacOS, the installation location is `/Applications/Renode.app/Contents/MacOs`
+* On Linux, the location for Debian, Fedora, and Arch is `/opt/renode`
+* On Windows, the location is `C://Program Files/Renode`
+
+To add the Pico configuration files from the `renode` directory in this repository:
+1. Copy `rp2040_spinlock.py` and `rp2040_divider.py` to the `scripts/pydev` directory of your Renode installation.
+1. Copy `rpi_pico_rp2040_w.repl` to the `platforms/cpus` directory.
 
 # Setup paths
 VSCode will setup environment variables in terminals spawned from inside the IDE. If you want access in your general terminal, add the following to `~/.profile` (the file is hidden with the period prefix in your home directory). This isn't required, but is convenient. If you have installed the sdk at another location make sure to put it instead.
@@ -100,25 +132,3 @@ https://learn.microsoft.com/en-us/windows/wsl/connect-usb
 You can attach USB devices on the host directly into the VM.
 
 https://www.virtualbox.org/manual/topics/working-with-vms.html#ct_usb-support
-
-
-# (Optional) Install Robot Framework
-We'll use the Robot Framework for running our tests.
-
-https://docs.robotframework.org/docs/getting_started/testing#install-robot-framework
-
-Note you will want to install with `pip3 install --user robotframework` to add a user-wide installation.
-
-# (Optional) Install Renode
-1. Download and install Renode, available at the following link https://renode.io/#downloads
-
-## Additional renode setup
-The Raspberry Pico needs configuration files for Renode to work properly.
-
-* On MacOS, the installation location is `/Applications/Renode.app/Contents/MacOs`
-* On Linux, the location for Debian, Fedora, and Arch is `/opt/renode`
-* On Windows, the location is `C://Program Files/Renode`
-
-To add the Pico configuration files from the `renode` directory in this repository:
-1. Copy `rp2040_spinlock.py` and `rp2040_divider.py` to the `scripts/pydev` directory of your Renode installation.
-1. Copy `rpi_pico_rp2040_w.repl` to the `platforms/cpus` directory.
