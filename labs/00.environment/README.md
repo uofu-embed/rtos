@@ -43,7 +43,7 @@ Try to load the example code onto the board following the instructions.
 # Lab
 # Commit project
 ## Overview
-Now that we have our project, let's get it into source control.
+In this activity, practice creating and manipulating git repositories.
 ## Tasks
 1. Create repository on github
     1. Do *not* initialize the repository with a README, gitignore, or license.
@@ -62,8 +62,11 @@ Now that we have our project, let's get it into source control.
 .vscode/
 **/build/
 ```
+This exercise is to help get familiar with the git workflow. In the next activities, we'll start with an existing project template.
 
 # Referencing libraries.
+If you haven't already, clone the template repository. https://github.com/uofu-embed/rtos.template
+
 We will be using external libraries over the course of the labs.
 
 1. https://github.com/ThrowTheSwitch/Unity
