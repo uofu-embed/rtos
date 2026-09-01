@@ -75,7 +75,9 @@ Use this to install a driver for the RP2 USB-Device, after you have plugged in y
 # Linux specific issues
 You may need to install this udev rule to allow non-root access over USB.
 
-https://github.com/raspberrypi/picotool/blob/master/udev/99-picotool.rules
+https://github.com/raspberrypi/picotool/blob/master/udev/60-picotool.rules
+
+The file explains how to install the rule.
 
 You may need to add your user to the dialout group to access serial devices.
 
