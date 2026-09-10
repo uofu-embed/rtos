@@ -1,4 +1,4 @@
-# Lab 1. Writing testable code
+# Lab 2. Writing testable code
 
 # Learning objectives:
 * Organize a project.
@@ -23,9 +23,10 @@ Read the preface, chapters 1 and 2 in Working Effectively with Legacy Code.
 
 https://utah-primoprod.hosted.exlibrisgroup.com/permalink/f/1g0gstr/TN_cdi_askewsholts_vlebooks_9780132931755
 
-Read through the Renode testing docs (you don't need to read the advanced usage section)
+Read Richard Gabriel's classic article Worse is Better 
+https://dreamsongs.com/RiseOfWorseIsBetter.html
 
-https://renode.readthedocs.io/en/latest/introduction/testing.html
+Read Gabriel's rebuttal to his own article https://dreamsongs.com/Files/worse-is-worse.pdf
 
 Read through the rest of this lab manual and familiarize yourself with terms used and concepts discussed.
 
