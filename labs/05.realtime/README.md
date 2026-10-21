@@ -99,6 +99,9 @@ More information in the manual section 8.2
 1. Add another measurement for frequency.
 1. Add another measurement for duty cycle.
 1. Using these measurements, calculate the drift over a 1 hour period.
+   1. (hint: what is the unit of drift?)
+
+When you are making measurements, make sure your measurements operate at an appropriate scale. 100ms is a long time, and any errors may be lost in rounding error.
 
 ### Capturing data with the RTM3004
 More information in the manual section 10.2 for flash drive and section 12.2 for MTP. (I wrote these instructions when I was learning the features of the scope, you don't need to do this data capture during the lab.)
@@ -132,12 +135,20 @@ Measure the latency of an interrupt handler.
 1. Increase the delay using a busy wait loop as before. (Put the delay before the toggle)
 
 ## Activity
-**Skip this activity**
-1. ~~Modify the interrupt handler by adding in a message queue.~~
-1. ~~From the interrupt handler send a message.~~
-1. ~~Create a new thread that reads messages from the queue and toggles the output pin when a message is received.~~
-1. ~~Measure the latency again.~~
-1. ~~Add a busy wait delay to the message handler. (Put the delay before the toggle)~~
+Evaluate the effect of the RTOS scheduler when using thread delays.
 
+1. Modify the `task_delay.c` file to include a second thread.
+   1. The thread doesn't have to do anything specific, just put a while(1); loop in.
+   2. Both thread should have the same priority.
+1. Set a task delay of 1 tick in the delayed thread.
+1. Predict the expected behavior.
+
+1. Modify the `task_delay.c` file to include a third thread by starting up two copies of the thread you added.
+1. Predict the expected behavior.
+
+# Submission
+You won't have any tests or major code revisions to review. Make sure to document your findings, either in a markdown file, a pdf, a csv, or some other format. Your goal is to effectively communicate.
+
+When you do code review, make sure to compare your results with the other team's. Are there any significant variations?
 # Reference implementation
 A working reference implementation is available here https://github.com/uofu-embed/rtos.05
