@@ -50,18 +50,18 @@ Office Location:  SMBB 3750
 | Oct. 21  | Lab 5 con't                              |                                                               |
 | Oct. 26  | Lab 6 Scheduling                         | Scheduling algorithms                                         |
 | Oct. 28  | Lab 6 con't                              | Priority inversion                                            |
-| Nov. 2   | Lab 8 CAN Bus                            | Networking                                                    |
-| Nov. 4   | Lab 8 con't                              | real-time communication                                       |
-| Nov. 9   | Lab 9 Formal verification                | Model checking                                                |
-| Nov. 11  | Lab 9 con't                              |                                                               |
-| Nov. 16  | Lab 8 con't                              |                                                               |
-| Nov. 18  | Lab 11 Bluetooth                         | Radio technologies                                            |
-| Nov. 23  | Lab 11 con't                             | Radio technologies                                            |
+| Nov. 2   | Lab 6 con't                              |                                                               |
+| Nov. 4   | Lab 8 CAN Bus                            | Networking                                                    |
+| Nov. 9   | Lab 8 con't                              | real-time communication                                       |
+| Nov. 11  | Lab 8 con't                              |                                                               |
+| Nov. 16  | Lab 9 Formal verification                | Model checking                                                |
+| Nov. 18  | Lab 9 con't                              |                                                               |
+| Nov. 23  | Lab 11 Bluetooth                         | Radio technologies                                            |
 | Nov. 25  | Thanksgiving Eve                         | Many folks will be travelling. Class time is still available. |
-| Nov. 30  | Lab 10 Power                             | Measuring and estimating power                                |
-| Dec. 2   | Lab 10 con't                             |                                                               |
-| Dec. 7   | TBA                                      | Safety, reliability, and risk                                 |
-| Dec. 9   | TBA                                      |                                                               |
+| Nov. 30  | Lab 11 con't                             |                                                               |
+| Dec. 2   | Lab 11 con't                             |                                                               |
+| Dec. 7   | Lab 10 Power                             | Measuring and estimating power                                |                                      
+| Dec. 9   | Lab 10 con't                             | Safety, reliability, and risk                                 |
 
 Exam period is Tuesday, December 15, 2026 3:30 – 5:30 pm. We will use this time to eat ice cream, discuss what happened during the course, and show off our results.
 
