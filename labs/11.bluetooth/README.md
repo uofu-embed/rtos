@@ -79,6 +79,11 @@ This app was used in the Pico docs, and is available for
 and [Android](https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer&hl=en_US).
 It seems to work fine on my phone, but feel free to find any other tool.
 
+Other students have used Nordic's tools
+[Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en_US&pli=1)
+[Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop)
+
+** We have found in the past that Apple devices tend to cache information, and may not update the announced service information after you change it.**
 ### Tasks
 
 1. Modify the service to make it easier to identify your device. In the `gatt_counter.c` file, modify the `adv_data` array, which contains the advertisement data.
